@@ -1,82 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-        />
-        <!-- fonts link -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- css link -->
-        <link rel="stylesheet" href="./style.css" />
-        <title>X2</title>
-    </head>
-    <body>
-        <h1>Assalomu alekum</h1>
-        <div class="container">
-            <aside>
-                <div class="top">
-                    <div class="logo">
-                        <img src="./img/logo.jpg" alt="" />
-                        <h2>for<span>X2</span></h2>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>X2</title>
+</head>
+
+<body>
+    <h1>Assalomu alekum</h1>
+    <div class="container">
+        <!------------------- START OF ASIDE --------------------->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./img/logo.jpg" alt="" />
+                    <h2>for<span>X2</span></h2>
+                </div>
+                <div class="close-btn">
+                    <span class="material-symbols-outlined"> close </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined"> person </span>
+                    <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">list_alt</span>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">insights</span>
+                    <h3>Analytcs</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">mail</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">33</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">inventory</span>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">report</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">add</span>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!------------------- END OF ASIDE --------------------->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <!----------------------END OF SALES------------------->
+                <div class="sales">
+                    <span class="material-symbols-outlined">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Salest</h3>
+                            <h1>$25.366</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="close-btn">
-                        <span class="material-symbols-outlined"> close </span>
-                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
                 </div>
 
-                <div class="sidebar">
-                    <a href="#">
-                        <span class="material-symbols-outlined">grid_view</span>
-                        <h3>Dashboard</h3>
-                    </a>
-                    <a href="#" class="active">
-                        <span class="material-symbols-outlined"> person </span>
-                        <h3>Customers</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">list_alt</span>
-                        <h3>Orders</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">insights</span>
-                        <h3>Analytcs</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">mail</span>
-                        <h3>Messages</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">inventory</span>
-                        <h3>Products</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">report</span>
-                        <h3>Reports</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">settings</span>
-                        <h3>Settings</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">add</span>
-                        <h3>Add Product</h3>
-                    </a>
-                    <a href="#">
-                        <span class="material-symbols-outlined">logout</span>
-                        <h3>Logout</h3>
-                    </a>
+                <!----------------------END OF SALES------------------->
+                <!----------------------START OF INCOME------------------->
+                <div class="income">
+                    <span class="material-symbols-outlined">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Salest</h3>
+                            <h1>$15.355</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>78%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
                 </div>
-            </aside>
-        </div>
-    </body>
-    <script src="./main.js"></script>
+
+                <!----------------------END OF INCOME------------------->
+                <!----------------------START OF EXPENCES------------------->
+                <div class="expenses">
+                    <span class="material-symbols-outlined">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Salest</h3>
+                            <h1>$25.366</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!----------------------END OF EXPENCES------------------->
+            </div>
+        </main>
+    </div>
+</body>
+<script src="./main.js"></script>
+
 </html>
