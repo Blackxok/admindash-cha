@@ -126,7 +126,6 @@ aside {
 }
 
 aside .top {
-    background: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -504,4 +503,23 @@ main .recent-orders a {
 
 .right .sales-analytics .item.offline .icon {
     background: var(--color-danger);
+}
+
+.right .sales-analytics .add-product {
+    background: transparent;
+    border: 2px dashed;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .sales-analytics .add-product div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.right .sales-analytics .add-product div h3 {
+    font-weight: 600;
 }
