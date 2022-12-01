@@ -1,2 +1,2 @@
-# CBX2 from you tube_
+# CBX2 from you tube
 https://admindash-cha.netlify.app/
